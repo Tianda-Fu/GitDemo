@@ -65,6 +65,7 @@ public class Test3 {
 	public void APIRacing() {
 		// Rest API automation
 		System.out.println("APIlogincar");
+		System.out.println("Web automation");
 	}
 	
 	@DataProvider
