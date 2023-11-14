@@ -73,7 +73,7 @@ public class Test3 {
 		// 1st combination - username password - good credit history
 		// 2nd combination - username password - no credit history
 		// 3rd combination - fraudelent credit history
-		Object[][] data = new Object[3][2];
+		Object[][] data = new Object[4][2];
 		// 1st
 		data[0][0] = "fristsetusername";
 		data[0][1] = "password";
@@ -86,6 +86,10 @@ public class Test3 {
 		// 3rd
 		data[2][0] = "thirdsetusername";
 		data[2][1] = "thirdpassword";
+		
+		// 4th
+		data[3][0] = "fourthsetusername";
+		data[3][1] = "fourthpassword";
 		
 		return data;
 	}

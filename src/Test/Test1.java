@@ -20,8 +20,18 @@ public class Test1 {
 		Assert.assertTrue(false);
 	}
 	
+	@Test
+	public void Demo_2() {
+		System.out.println("Maven");
+		Assert.assertTrue(true);
+	}
+	
 	@AfterSuite
 	public void AfSuite() {
+		System.out.println("After Suite");
+		System.out.println("After Suite");
+		System.out.println("After Suite");
+		System.out.println("After Suite");
 		System.out.println("After Suite");
 	}
 	
